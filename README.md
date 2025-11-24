@@ -17,6 +17,8 @@ The project emerged from the need to address the limitations of closed-source AI
 
 ​                ● The evidence leans toward area efficiency through merged INT/FP units, validated on benchmarks, but some experts highlight integration challenges in diverse RISC-V ecosystems.
 
+
+
 ## **Advantages and Features**
 
 OpenTensorCore stands out as the first open-source Tensor Core with native FP8 data format support, enabling compact models without significant accuracy loss. Its architecture natively handles mixed-precision computations, minimizing data format conversion delays. By merging integer (INT) and floating-point (FP) units, it reduces core area while proving feasible for large model computations.
@@ -77,6 +79,8 @@ The design incurs minimal overhead and will future supports extensions for forma
 |                  | scl.log                                             | 脚本运行日志                                                 |
 | **其他文件**     | default.svf                                         | 默认配置文件                                                 |
 |                  | qrd_mvp.pvk                                         | 未知                                                         |
+
+
 
 #### **Related Resources**
 
