@@ -84,11 +84,16 @@ The design incurs minimal overhead and will future supports extensions for forma
 
 #### **Related Resources**
 
- OpenRVGPUCourese    https://github.com/chenweiphd/OpenRVGPUCourse
-
-Vortex
-
-Ventus
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [OpenRVGPUCourese](https://github.com/chenweiphd/OpenRVGPUCourse) | OpenRVGPUCourse aims to achieve entry into RISC-V GPU architecture in the shortest path while exploring the application potential of technologies such as 2.5D/3D/3.5D Chiplet and open-source EDA in open-source GPUs |
+| [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu)        | GPGPU processor supporting RISCV-V extension, developed with Chisel HDL. |
+| [Vortex](https://github.com/vortexgpgpu/vortex)              | Vortex is a full-stack open-source RISC-V GPGPU. Vortex supports multiple **backend drivers**, including our C++ simulator (simx), an RTL simulator, and physical Xilinx and Altera FPGAs-- all controlled by a single driver script |
+|                                                              |                                                              |
+|                                                              |                                                              |
+|                                                              |                                                              |
+|                                                              |                                                              |
+|                                                              |                                                              |
 
 
 
