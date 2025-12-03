@@ -1,6 +1,0 @@
-@elabcom rc file Version 1.0
-[oh]
-invokeDir = /usrhome/OB2_OpenSoCPrj/_OpenTensorCore/src/v0p1/sim/top
-hostCommand = -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -top "tb_tensor_core fp4_to_fp9 fadd_s1 fadd_s2 fmul_s1 fmul_s2 fmul_s3 config_registers" -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389 -S\
-NPS_ELABCOM -saveElab
-simType = VCS

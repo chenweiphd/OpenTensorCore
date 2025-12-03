@@ -1,9 +1,0 @@
-../../config_registers.v
-../../fadd_s1.v
-../../fadd_s2.v
-../../fmul_s1.v
-../../fmul_s2.v
-../../fmul_s3.v
-../../fp4_to_fp9fp4.v
-../../sim/top/tb_tensor_core.v
-../../src/top/tensor_core.v

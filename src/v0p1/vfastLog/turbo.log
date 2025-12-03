@@ -1,3 +1,0 @@
-Command Line: /export/SoftWare/Synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/vfast -silent -del . -o /usrhome/OB2_OpenSoCPrj/_OpenTensorCore/src/v0p1/fp16_to_fp9.fsdb.fsdb -ft verilog /usrhome/OB2_OpenSoCPrj/_OpenTensorCore/src/v0p1/fp16_to_fp9.fsdb
-uname(Linux eda2 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
-au time 0.048090 0.004143 0.014619 delta 16621568 16621568 total 101507072 101507072

@@ -1,7 +1,0 @@
-Command: vcs -full64 -sverilog -debug_access+all -kdb -f filelist.f -l com.log
-
-Error-[P1ARGS-CANTOPN-F] Cannot open file
-  Unable to open 'filelist.f' due to 'No such file or directory'.
-  Please fix the reason mentioned above and continue.
-
-CPU time: .254 seconds to compile
