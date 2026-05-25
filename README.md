@@ -27,12 +27,13 @@ OpenTensorCore stands out as the first open-source Tensor Core with native FP8 d
 
  
 
-| Feature         | Description                                     | Advantage                                      |
-| --------------- | ----------------------------------------------- | ---------------------------------------------- |
-| FP8 Support     | Native E5M2/E4M3 formats with block scaling     | Reduces memory by 4x, power by similar factors |
-| Mixed Precision | Seamless FP8/FP16/FP32 with no casting overhead | Latency drop of 20-50%                         |
-| INT/FP Merge    | Shared logic for INT8 scales and FP ops         | 30% area reduction, 5% overhead                |
-| Customizability | RISC-V RVV integration                          | Community-driven extensions                    |
+| Feature         | Description                                                | Advantage                                      |
+| --------------- | ---------------------------------------------------------- | ---------------------------------------------- |
+| FP8/FP4 Support | FP4 and native FP8（E5M2/E4M3） formats with block scaling | Reduces memory by 4x, power by similar factors |
+| Structure Spase | Support structure spase and related ISA                    | Reduces area by 4x, power by similar factors   |
+| Mixed Precision | Seamless FP8/FP16/FP32 with no casting overhead            | Latency drop of 20-50%                         |
+| INT/FP Merge    | Shared logic for INT8 scales and FP ops                    | 30% area reduction, 5% overhead                |
+| Customizability | RISC-V RVV integration                                     | Community-driven extensions                    |
 
  
 
@@ -48,7 +49,7 @@ At its heart, OpenTensorCore employs a pipeline-based architecture. The core com
 
 The design incurs minimal overhead and will future supports extensions for formats like INT4 and FP4.
 
-![image-20251124190838829](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20251124190838829.png)
+![img](https://raw.githubusercontent.com/chenweiphd/typopic/master/img-20260525194040879.png)
 
  
 
